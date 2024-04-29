@@ -1,0 +1,39 @@
+.padre {
+  position: relative;
+  top: 100px;
+  left: 250%;
+  align-items: center;
+}
+
+.estilo-perfil {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input {
+  background-color: #cccccc40;
+  border-color: slategray;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px;
+}
+.input:focus {
+  outline: 1px solid rgb(143, 70, 70);
+  box-shadow: 0 0 5px;
+}
+.btn-form {
+  background-color: #ff0000;
+  border-color: slategray;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  color: white;
+}

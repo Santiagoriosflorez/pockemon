@@ -1,0 +1,60 @@
+@import url("https://fonts.cdnfonts.com/css/the-slug-and-lion");
+
+.home-container {
+  background-image: url("../Img/5935331.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; /* Ancho completo del contenedor */
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pokedex-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: crimson;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  position: relative;
+  right: 90px;
+}
+
+.Img {
+  width: 120px;
+  height: 120px;
+}
+
+.ImgTitle {
+  position: relative;
+  right: -180px;
+}
+.pokemon-item {
+  font-family: "The Slug and Lion", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pokemon-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pokemon-item img {
+  background-color: transparent;
+}
+
+.pokemon-item a:hover {
+  text-decoration: underline;
+}
